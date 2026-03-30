@@ -10182,6 +10182,7 @@ h6,
   position: relative;
   border: 1px solid #ccc;
   touch-action: none;
+  overflow: hidden;
 }
 
 /* Movable image */
