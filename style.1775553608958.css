@@ -10211,3 +10211,23 @@ h6,
 .resize-ne { top: -10px; right: -10px; cursor: nesw-resize; }
 .resize-sw { bottom: -10px; left: -10px; cursor: nesw-resize; }
 .resize-se { bottom: -10px; right: -10px; cursor: nwse-resize; }
+#updateOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.65);
+  color: white;
+  display: none; /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  z-index: 999999; /* above everything */
+  pointer-events: all;
+}
+
+.updateBox {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
